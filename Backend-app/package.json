@@ -1,0 +1,28 @@
+{
+  "name": "backend-app-part1",
+  "version": "1.0.0",
+  "description": "first step at Vehicle fleet parking management",
+  "scripts": {
+    "test": "cucumber-js",
+    "lint": "npx eslint ./**/*.js"
+  },
+  "author": "gui.grimbert@gmail.com",
+  "bin": {
+    "fleet": "index.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "@cucumber/cucumber": "^7.3.1",
+    "commander": "^8.1.0",
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  }
+}
